@@ -1,0 +1,238 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+                }
+        table{
+            border-spacing: 0;
+        }
+        td{
+            padding: 0;
+        }
+        img{
+            border: 0;
+        }
+        .wrapper{
+            width: 100%;
+            table-layout: fixed;
+        }
+        .webkit{
+            max-width: 540px;
+            background-color: #ffffff;
+        }
+        .outer{
+            Margin:0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #4a4a4a;
+        }
+        .email-header{
+            text-align: left;
+            border-top: 10px solid #FFB801;
+            width: 100%;
+        }
+        .email-logo{
+            margin: 20px 0;
+        }
+        .email-banner-desc{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner-image{
+            width: 270.59px;
+            height: 179.31px;
+        }
+        .welcome-grettings{
+            font-size: 25px;
+            color: black;
+            font-family: 'Rubik';
+        }
+        .funded-letter{
+            color: #FFB801;
+        }
+
+        .next-letter{
+            color: black;
+        }
+        .confirmationheading{
+            color: #515151;
+            font-weight: 400;
+            font-family: 'Rubik';
+            font-size: 15px;
+        }
+        .confirmationtitle{
+            color: #515151;
+            font-weight: 400;
+            font-family: 'Rubik';
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+
+        .button-link{
+            text-decoration: none;
+        }
+        .confimationbtn{
+            width: 290px;
+            height: 60px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #181816;
+            color: white;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        .copytitle{
+            color: #515151;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Rubik';
+            margin: 0;
+            line-height: 28px;
+        }
+        .copytitle:first-child{
+            padding-top: 30px;
+        }
+        .copytitle:last-child{
+            padding-bottom: 30px;
+        }
+        .copytitle-link{
+            color: #FFB801;
+            font-size: 15px;
+        }
+        .footer-desc{
+            background-color:#181816;
+            border-radius: 10px;
+        }
+        .footer{
+            text-align: center;
+            padding:30px 40px;
+        }
+        .footer-title{
+            color: white;
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .footer-title::after{
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background-color: #6f6e6e;
+            bottom: 0;
+            left: 0;
+        }
+        .social-icon{
+            
+        }
+        .icon-link:hover{
+            background-color: #e4a507;
+            color: white;
+            transition: all 0.2s ease-in-out;
+        }
+        .icon-link{
+            text-decoration: none;
+            background-color: #FFB801;
+            color: #181816;
+            height:30px;
+            width: 30px;
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            font-size: 14px;
+            transition: all 0.2s ease-in-out;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <center class="wrapper">
+        <div class="webkit">
+             <table class="outer" align="center">
+                 <tr>
+                     <td>
+                         <table class="email-header">
+                            <tr>
+                               <td>
+                                    <a href="#"><img class="email-logo" src="image/email-logo.png" alt=""></a>
+                               </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table class="email-banner-desc">
+                                        <tr>
+                                            <td>
+                                                <img class="banner-image" src="image/email-banner.png" alt="banner">
+                                                <h2 class="welcome-grettings">Welcome to <span class="funded-letter">Funded</span class="next-letter"><span>Next</span></h2>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <h3 class="confirmationheading">Hi There</h3>
+                                                <p class="confirmationtitle">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                                                <a href="#" class="button-link"><button class="confimationbtn">Confirm Email</button></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p class="copytitle">Or copy link</p>
+                                                <p class="copytitle">and past any browser <a href="#" class="copytitle-link">http//www.fundednext.com/confirmemail.675?a</a></p>
+                                                <p class="copytitle">Thanks</p>
+                                                <p class="copytitle">Regards</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="footer-desc">
+                                    <table >
+                                        <tr>
+                                            <td class="footer">
+                                                <img src="image/email-logo-white.png" alt="">
+                                                <p class="footer-title">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.</p>
+                                                <a href="#" class="icon-link"><i class="fab fa-facebook-f social-icon"></i></a>
+                                                <a href="#" class="icon-link"><i class="fab fa-instagram social-icon"></i></a>
+                                                <a href="#" class="icon-link"><i class="fab fa-twitter social-icon"></i></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                         </table>
+                     </td>
+                 </tr>
+             </table>
+        </div>
+    </center>
+</body>
+</html>
